@@ -1,0 +1,23 @@
+.auth-page {
+    width: 1500px;
+    height: 780px;
+    background-image: url('./assets/fon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cloud{
+    background-image: url('./assets/oblako.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 700px;
+}
+
+.branch{
+    background-image: url('./assets/Сова.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+}

@@ -1,0 +1,50 @@
+.header {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 40px;
+    color: #05566A;
+    margin: 10px 0 0 38px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 19px;
+    color: rgba(74, 74, 74, 0.72);
+    margin-top: 20px;
+}
+
+.flex p:not(:last-child) {
+    padding-right: 65px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+}
+
+.call {
+    background-image: url('./assets/call.svg');
+    width: 23px;
+    height: 22px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.num{
+    margin-left: 4px;
+    text-decoration: overline;
+}
+
+.num:hover{
+    color: #05566A;
+}
+

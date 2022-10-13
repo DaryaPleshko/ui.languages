@@ -1,0 +1,47 @@
+.main {
+    width: 1450px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 40px;
+    color: #05566A;
+    text-align: right;
+    margin: 40px 0 0 670px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 17px;
+    color: #6E6A7C;
+    text-align: right;
+}
+
+.buttons {
+    background: #FFF319;
+    border-radius: 30px;
+    width: 370px;
+    height: 40px;
+    margin: 0 0 0 10px;
+    color: #4A4A4A;
+    font-size: 20px;
+    box-shadow: 3px 9px 9px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    margin: 50px 0 0 1000px;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background: #ffe819;
+}
+
+.branch{
+    background-image: url('./assets/vetka.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 350px;
+    margin: 1px 0 0 1105px;
+}
