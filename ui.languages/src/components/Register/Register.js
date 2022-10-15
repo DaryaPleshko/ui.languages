@@ -51,7 +51,7 @@ const Register = () => {
                 <li> <input className={style['password']} type="password" placeholder="Password" /></li>
                 <li> <input className={style['confirm-password']} type="password" placeholder="Confirm Password" /></li>
             </ul>
-            <Link to={'/login'}><p className={style['auth']}>Already registered in MNELA?</p></Link>
+            <Link to={'/login'}><p className={style['regis']}>Already registered in MNELA?</p></Link>
             <div className={style["create-account"]}>Create a profile</div>
             <p className={style["text"]}>By clicking “Create a profile” you you register in MNELA.</p>
         </div>

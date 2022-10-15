@@ -48,9 +48,14 @@
     border: 3px solid #84B23E;
 }
 
-.auth {
+.regis {
     color: #84B23E;
     margin: 35px 0 0 1020px;
+    cursor: pointer;
+}
+
+.regis:hover{
+    color: #5d7e2b;
 }
 
 .create-account {
@@ -65,6 +70,7 @@
     color: rgba(255, 255, 255, 0.862);
     text-align: center;
     padding-top: 12px;
+    cursor: pointer;
 }
 
 .create-account:hover {
