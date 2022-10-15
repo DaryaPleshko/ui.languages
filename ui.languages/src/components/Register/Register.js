@@ -1,4 +1,5 @@
 //import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import style from './Register.module.css';
 //import { http } from '../../hooks/http.hooks';
 //import { Link, useNavigate } from 'react-router-dom';
@@ -50,7 +51,7 @@ const Register = () => {
                 <li> <input className={style['password']} type="password" placeholder="Password" /></li>
                 <li> <input className={style['confirm-password']} type="password" placeholder="Confirm Password" /></li>
             </ul>
-            <p className={style['auth']}>Already registered in MNELA?</p>
+            <Link to={'/login'}><p className={style['auth']}>Already registered in MNELA?</p></Link>
             <div className={style["create-account"]}>Create a profile</div>
             <p className={style["text"]}>By clicking “Create a profile” you you register in MNELA.</p>
         </div>

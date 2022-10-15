@@ -1,7 +1,7 @@
 //import { useState } from 'react';
 import style from './Auth.module.css';
 // import { http } from '../../hooks/http.hooks';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // import { useNavigate } from 'react-router-dom';
 // import { auth } from '../../context/auth';
 // import { user } from '../../context/user';
@@ -45,7 +45,7 @@ const Auth = () => {
                 <li> <input className={style['email']} placeholder="Email" /></li>
                 <li> <input className={style['password']} type="password" placeholder="Password" /></li>
             </ul>
-            <p className={style['auth']}>Not yet registered in MNELA?</p>
+            <Link to={'/register'}><p className={style['auth']}>Not yet registered in MNELA?</p></Link>
             <div className={style["create-account"]}>ENTER</div>
             <p className={style["text"]}>By clicking “ENTER” you will log in to your profile.</p>
         </div>

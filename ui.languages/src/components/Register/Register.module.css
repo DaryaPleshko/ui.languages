@@ -11,7 +11,6 @@
     font-size: 48px;
     color: #05566A;
     margin: 20px 0 0 780px;
-
 }
 
 .second-footer {
@@ -68,11 +67,11 @@
     padding-top: 12px;
 }
 
-.create-account:hover{
+.create-account:hover {
     background: #739d33;
 }
 
-.text{
+.text {
     color: #84B23E;
     margin: 10px 0 0 940px;
     font-size: 12px;
