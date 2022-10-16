@@ -60,8 +60,8 @@
 }
 
 .num{
-    margin: 7px 0 0 4px;
-    text-decoration: overline;
+    margin: 6px 0 0 4px;
+    font-size: 17px;
 }
 
 .num:hover{
