@@ -5,6 +5,7 @@ import RegisterPage from './pages/RegisterPage/RegisterPage';
 import AuthPage from './pages/AuthPage/AuthPage';
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 import LanguagesPage from './pages/LanguagesPage/LanguagesPage';
+import UsingPage from './pages/UsingPage/UsingPage';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path='/register' element={<RegisterPage />}></Route>
         <Route path='/about' element={<AboutUsPage/>}></Route>
         <Route path='/languages' element={<LanguagesPage/>}></Route>
-        {/* <Route path='/profile' element={<Languages />}></Route> */}
+        <Route path='/using' element={<UsingPage />}></Route>
       </Routes>
     </>
   );

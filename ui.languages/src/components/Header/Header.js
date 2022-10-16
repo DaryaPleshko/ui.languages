@@ -7,11 +7,10 @@ const Header = () => {
             <h1 className={style['logo']}>MNELA</h1>
             <div className={style['flex']}>
                 <Link to={'/about'}><p className={style['about-us']}>About Us</p></Link>
-                <Link to={'/register'}><div className={style['signup-btn']}>Sign In</div></Link>
+                <Link to={'/register'}><div className={style['signup-btn']}>Sign Up</div></Link>
                 <div className={style['call']}></div>
                 <div className={style['num']}>+375 29 622-44-80</div>
             </div>
-
         </header>
     );
 

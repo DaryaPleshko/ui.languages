@@ -1,15 +1,15 @@
-.lang-page {
-    margin: auto;
-    height: 780px;
+.about-us-page {
     background-image: url('./assets/fon.svg');
     background-size: contain;
     background-repeat: no-repeat;
+    width: 1520px;
+    height: 780px;
 }
 
-.forest{
-    background-image: url('./assets/лесок.svg');
+.branch {
+    background-image: url('./assets/picture.svg');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 1000px;
-    height: 720px;
+    width: 690px;
+    height: 450px;
 }

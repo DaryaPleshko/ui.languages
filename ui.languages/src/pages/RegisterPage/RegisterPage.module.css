@@ -1,4 +1,5 @@
 .register-page {
+    margin: auto;
     height: 780px;
     background-image: url('./assets/fon.svg');
     background-size: contain;

@@ -1,5 +1,5 @@
 .auth-page {
-    width: 1500px;
+    margin: auto;
     height: 780px;
     background-image: url('./assets/fon.svg');
     background-size: contain;
