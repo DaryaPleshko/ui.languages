@@ -6,10 +6,3 @@
     height: 780px;
 }
 
-.branch {
-    background-image: url('./assets/picture.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 690px;
-    height: 450px;
-}

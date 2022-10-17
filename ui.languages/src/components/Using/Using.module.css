@@ -71,3 +71,13 @@
 .btn:hover {
     background: #ffe819;
 }
+
+.child {
+    background-image: url('./assets/child.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 690px;
+    height: 450px;
+    position: absolute;
+    top: 220px;
+}

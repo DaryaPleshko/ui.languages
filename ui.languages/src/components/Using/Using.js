@@ -20,6 +20,7 @@ const Using = () => {
                 </div>
             </div>
             <Link to={'/languages'}><div className={style['btn']}>Go Back !</div></Link>
+            <div className={style['child']}></div>
         </div>
     );
 
