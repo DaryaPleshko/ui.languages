@@ -51,7 +51,7 @@
     color: #05566A;
 }
 
-.signup-btn {
+.btn {
     background: #FFF319;
     border-radius: 20px;
     padding: 5px 35px 6px 35px;
@@ -62,7 +62,7 @@
     font-weight: 600;
 }
 
-.signup-btn:hover {
+.btn:hover {
     background: #ffe819;
 }
 
