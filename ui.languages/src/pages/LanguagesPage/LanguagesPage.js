@@ -9,7 +9,7 @@ const LanguagesPage = () => {
     return (
         <div className={style['lang-page']}>
             <div className={style['forest']}>
-                <div className={style['wrapper']}>
+                <div className={style['wrapper']}>  
                     <h1 className={style['logo']}>Welcome, {state.data[0].name}, to MNELA !</h1>
                     <div className={style['flex']}>
                         <Link to={'/about'}><p className={style['header-text']}>About Us</p></Link>

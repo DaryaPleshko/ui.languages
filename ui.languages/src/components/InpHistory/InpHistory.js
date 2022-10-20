@@ -26,7 +26,7 @@ const InpHistory = () => {
         <div>
             <div className={style['wrapper']}></div>
             <p className={style['title']}>History:</p>
-            <div className={style['history']}>
+            <div className={style['history']}>     
                 <p>1. History</p>
                 <p>2. History</p>
                 <p>3. History</p>

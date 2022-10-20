@@ -20,10 +20,8 @@ const Auth = () => {
         try {
             isValidation(email, password);
             const data = await http('http://localhost:5000/user/auth', 'POST', { email, password })
-            console.log(data);
             if (data.length) {
                 auth.isAuth = true;
-                console.log(auth.isAuth);
                 navigate(`/languages`, { state: { data: data } });
             }
         } catch (err) {
