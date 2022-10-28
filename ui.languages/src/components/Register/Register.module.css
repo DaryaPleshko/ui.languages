@@ -46,6 +46,7 @@
 
 .list-input li input:focus {
     border: 3px solid #84B23E;
+    box-shadow: 3px 9px 9px rgba(0, 0, 0, 0.414);
 }
 
 .regis {
@@ -55,7 +56,7 @@
 }
 
 .regis:hover{
-    color: #5d7e2b;
+    color: #465f20;
 }
 
 .create-account {
@@ -75,6 +76,7 @@
 
 .create-account:hover {
     background: #739d33;
+    box-shadow: 3px 7px 9px rgba(58, 58, 58, 0.478);
 }
 
 .text {

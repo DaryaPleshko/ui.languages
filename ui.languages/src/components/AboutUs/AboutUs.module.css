@@ -6,10 +6,24 @@
     font-weight: 500;
     font-size: 48px;
     color: #05566A;
-    margin-left: 800px;
+    margin-left: 798px;
+    animation-duration: 3s;
+    animation-name: slidein;
+
 }
 
-.flex{
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 55%;
+        width: 100%;
+    }
+}
+
+.flex {
     margin-top: 40px;
 }
 
@@ -52,6 +66,10 @@
     align-items: center;
 }
 
+.flex p:hover {
+    color: #01495b;
+}
+
 .btn {
     background: #FFF319;
     border-radius: 30px;
@@ -70,4 +88,5 @@
 
 .btn:hover {
     background: #ffe819;
+    box-shadow: 3px 9px 9px rgba(58, 58, 58, 0.685);
 }

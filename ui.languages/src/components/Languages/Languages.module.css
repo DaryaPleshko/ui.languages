@@ -3,7 +3,7 @@
     color: #05566A;
     font-weight: 600;
     font-size: 20px;
-    margin: 150px 0 0 410px;
+    margin: 150px 0 0 340px;
 }
 
 .text-input {
@@ -16,7 +16,7 @@
     border-radius: 16px;
     box-shadow: 3px 9px 9px rgba(0, 0, 0, 0.25);
     font-size: 15px;
-    margin: 20px 0 0 400px;
+    margin: 20px 0 0 250px;
 }
 
 .text-input:focus {
@@ -28,7 +28,7 @@
     height: 30px;
     background: #FFF319;
     border-radius: 18px;
-    margin: 18px 0 0 550px;
+    margin: 18px 0 0 410px;
     box-shadow: 3px 9px 9px rgba(0, 0, 0, 0.25);
     font-weight: 600;
     font-size: 18px;

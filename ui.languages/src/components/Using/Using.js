@@ -6,7 +6,7 @@ const Using = () => {
         <div className={style['container']}>
             <div className={style['title']}>TERMS OF USE MNELA</div>
             <div className={style['flex']}>
-                <div>  
+                <div>
                     <div className={style['first']}></div>
                     <p className={style['text']}>first</p>
                 </div>
