@@ -5,7 +5,7 @@ const AboutUs = () => {
     return (
         <div className={style['container']}>
             <div className={style['title']}>ABOUT MNELA</div>
-            <div className={style['flex']}>
+            <div className={style['flex']}>           
                 <div>
                     <div className={style['first']}></div>
                     <p className={style['text']}>“MNELA” - the scientific platform that started in 2022 !
